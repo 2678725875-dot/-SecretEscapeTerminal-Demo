@@ -1,0 +1,10 @@
+/* 设计变量 */
+:root {
+    --bg-dark: #0f1015;
+    --panel-bg: rgba(25, 27, 33, 0.75);
+    --accent-cyan: #00e5ff;
+    --accent-orange: #ffaa00;
+    --text-main: #d3d4d9;
+    --text-muted: #6b7080;
+    --border-line: rgba(255, 255, 255, 0.1);
+}

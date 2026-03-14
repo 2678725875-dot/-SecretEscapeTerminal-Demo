@@ -1,0 +1,10 @@
+/* 标题组件 */
+.section-title {
+    font-size: 1.2rem;
+    color: #fff;
+    border-left: 4px solid var(--accent-cyan);
+    padding-left: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
