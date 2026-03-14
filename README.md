@@ -21,7 +21,7 @@
 
 ```bash
 # 1. 建立数据链路 (克隆仓库)
-git clone [https://github.com/2678725875-dot/-SecretEscapeTerminal-Demo.git](https://github.com/2678725875-dot/-SecretEscapeTerminal-Demo.git)
+git clone https://github.com/2678725875-dot/-SecretEscapeTerminal-Demo.git
 cd "-SecretEscapeTerminal-Demo"
 
 # 2. 安装核心依赖

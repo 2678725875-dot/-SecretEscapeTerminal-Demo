@@ -1,0 +1,34 @@
+/* 博客卡片组件 */
+.blog-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-line);
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 15px 100%, 0 calc(100% - 15px));
+}
+
+.blog-card:hover {
+    border-color: var(--accent-cyan);
+    background: rgba(0, 229, 255, 0.05);
+    transform: translateX(10px);
+}
+
+.blog-date {
+    color: var(--accent-orange);
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+.blog-title {
+    font-size: 1.1rem;
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+
+.blog-desc {
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.5;
+}

@@ -1,0 +1,26 @@
+/* 快捷链接组件 */
+.tools-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.tool-btn {
+    background: transparent;
+    border: 1px solid var(--border-line);
+    color: var(--text-main);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.tool-btn:hover {
+    background: var(--text-main);
+    color: var(--bg-dark);
+    font-weight: bold;
+}
